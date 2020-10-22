@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/auth">Авторизация</router-link> |
+      <router-link to="/stats">Аналитика</router-link>
     </div>
     <router-view/>
   </div>
@@ -19,6 +20,7 @@
 
 #nav {
   padding: 30px;
+  background-color:lightcyan;
 
   a {
     font-weight: bold;
